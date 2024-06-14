@@ -11,7 +11,7 @@ import Model.Tag;
 import Model.User;
 
 public class StackOverflow {
-	private static StackOverflow stackOverflow;
+	private static StackOverflow stackOverflow = null;
 	private Map<Integer, User> users;
 	private Map<Integer, Question> questions;
 	private Map<String, List<Question>> taggedQuestions;
